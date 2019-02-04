@@ -1,3 +1,4 @@
+;; Windows 10 emacs init file location is C:\Users\******\AppData\Roaming\.emacs.d\init.el
 (add-to-list 'auto-mode-alist '("\\.hts\\'" . html-mode))
 (load-theme 'tsdh-dark' t)
 (desktop-save-mode 1)

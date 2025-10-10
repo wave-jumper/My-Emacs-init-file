@@ -1,4 +1,5 @@
-;; Windows 10 emacs init file location is C:\Users\******\AppData\Roaming\.emacs.d\init.el
+;; Windows emacs init file location is C:\Users\******\AppData\Roaming\.emacs.d\init.el
+;; If folder is hidden, type %APPDATA% in address/search box
 (add-to-list 'auto-mode-alist '("\\.hts\\'" . html-mode))
 (load-theme 'tsdh-dark' t)
 (desktop-save-mode 1)
@@ -15,3 +16,4 @@
  ;; If there is more than one, they won't work right.
  (set-face-attribute 'default nil :height 120)
  )
+

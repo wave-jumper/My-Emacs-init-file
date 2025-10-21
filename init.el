@@ -1,5 +1,6 @@
 ;; Windows emacs init file location is C:\Users\******\AppData\Roaming\.emacs.d\init.el
 ;; If folder is hidden, type %APPDATA% in address/search box
+;; Set hts files to use html-mode
 (add-to-list 'auto-mode-alist '("\\.hts\\'" . html-mode))
 (load-theme 'tsdh-dark' t)
 (desktop-save-mode 1)
@@ -15,5 +16,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  (set-face-attribute 'default nil :height 120)
- )
-
+)
